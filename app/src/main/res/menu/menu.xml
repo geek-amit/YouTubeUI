@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/ic_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+    <item
+        android:id="@+id/ic_shorts"
+        android:icon="@drawable/ic_shorts"
+        android:title="Shorts"/>
+
+    <item
+        android:id="@+id/ic_create"
+        android:icon="@drawable/ic_create"
+        android:title=""/>
+
+    <item
+        android:id="@+id/ic_subsriptions"
+        android:icon="@drawable/ic_subscriptions"
+        android:title="Subscriptions"/>
+
+    <item
+        android:id="@+id/ic_library"
+        android:icon="@drawable/ic_video_library"
+        android:title="Library"/>
+</menu>
